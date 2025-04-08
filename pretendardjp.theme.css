@@ -1,0 +1,9 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-jp.min.css");
+
+:root {
+--Font: 'Pretendard JP Variable';
+}
+
+*:not([class*="hljs"]):not(code){
+font-family: var(--Font)!important;
+}
